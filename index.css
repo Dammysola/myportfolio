@@ -14,8 +14,7 @@ body{
     justify-content: space-between;
     padding: 10px 40px;
     height: 50px;
-    background-color:#FFFFFF;
-    box-shadow:  2px -7px 11px ; 
+    background-color:#FFFFFF; 
 }   
 .link{
     margin-right: 45px;  
@@ -391,8 +390,7 @@ hr{
     justify-content: space-between;
     padding: 10px 10px;
     height: 50px;
-    background-color:#FFFFFF;
-    box-shadow:  2px -7px 11px ; 
+    background-color:#FFFFFF; 
 } 
 .link{
     margin-right: 15px;  
@@ -465,7 +463,8 @@ hr{
 #parent{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
    row-gap: 20px;
 }
 .part_two{
@@ -619,7 +618,7 @@ hr{
     font-weight: 500;
     color: #000000;
     line-height: 20px;
-    height: 100px;
+    height: 70px;
 }
 #social_text{
     font-size: 15px;
