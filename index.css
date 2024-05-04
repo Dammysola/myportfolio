@@ -415,7 +415,6 @@ hr{
     background-color:#F5FCFF;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 #second_line{
     font-size: 33px;
@@ -423,8 +422,6 @@ hr{
     width: 350px;
  }
  #img{
-    /* float: right;
-    margin: -350px 50px 0 0; */
     width: 500px;
     height: 500px;
     border-radius: none;
@@ -444,7 +441,6 @@ hr{
     color: white;
     border: none;
     border-radius: 7px;
-    /* margin-top: 20px; */
 }
 .skill{
     font-weight: 400;
@@ -453,7 +449,7 @@ hr{
     height: 5px;
 }
 #skills{
-    min-height: 400px;
+    min-height: 1800px;
     display: flex;
     justify-content: center;
     margin-left: -15px;
@@ -464,24 +460,192 @@ hr{
     font-weight: 700;
     line-height: 77px;
     letter-spacing: 0em;  
+    height: 40px;
 }
 #parent{
-   /* display: flex;
-   flex-direction: column; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   row-gap: 20px;
 }
 .part_two{
-    /* padding:0px 40px ;  */
     align-items: center;
     justify-content: center;
     height: 100vh;
     box-sizing: border-box;
 }
-#about_me img{
-    width: 600px;
-    height: 500px;
-    display: none;
+.web{
+    background-color:#F5FCFF;
+    width: 350px;
+    Height: 350.33px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 30px;
 }
 #about_me{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    min-height: 1300px;
+}
+#about_me img{
+    width: 395px;
+    height: 400px;
+    margin: 10px;
+}
+#about_text{
+    width: 430px;
+    word-spacing: 3px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+#about_two{
+    margin-top: -250px;
+}
+.part_two #image{
+    text-align: center;
+    margin: 10px;
+}
+#portfolio_1{
+    padding: 10px;
+}
+#btn2{
+    width: 140px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10.67px;
+    border: none;
+    background-color:#E62872;
+    cursor: pointer;
+}
+.projects h3{
+    height: 7px;
+    text-align: center;
+}
+.projects{
+    width: 350px;
+    height: 450px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 32px 0px #00000026;
+    border-radius: 8px;
+}
+.pic{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+}
+.project_text{
+    width: 370px;
+    font-size: small;
+    font-weight: 400;
+    word-spacing: 2px; 
+    line-height: 17px;
+    padding:  0 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    height: 83px;
+    color: #1C1E53;
+}
+#portfolio_1{
+    background-color: transparent;
+}
+.pic_div{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+#middle_project{
+    margin: 0;
+}
+.Name_input{
+    width: 155px;
+    height: 40px;
+    padding: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.input{
+    width: 350px;
+    height: 40px;
+    padding: 16px ;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+#cont{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 77px;
+}
+#contact-form{
+    height: 850px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#last_line{
+    background-color:#F5FCFF;
+    width: 100%;
+    height: 320px;
+}
+.socials{
+    width: 25px;
+}
+#nav_2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 40px;
+}
+#nav_2 #first_line{
     display: none;
 }
+#name{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color:black;
+    line-height: 40px;
+}
+#bio{
+    font-size: small;
+    font-weight: 500;
+    color: #000000;
+    line-height: 20px;
+    height: 100px;
+}
+#social_text{
+    font-size: 15px;
+    font-weight: 700;
+    color:black;
+    line-height: 40px;
+}
+#footer{
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
