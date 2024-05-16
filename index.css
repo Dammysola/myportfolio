@@ -43,9 +43,7 @@ a{
 #about{
     height: 500px;
     background-color:#F5FCFF;
-
     padding:140.33px 100px ; 
-    box-shadow:  0px i px 11px  inset;
 }
 #span{
     color: #5E3BEE;
@@ -364,6 +362,9 @@ label{
     font-weight: 700;
     line-height: 77px;
 }
+#fullName{
+    display: none;
+}
 
 #btn_div{
     text-align: center;
@@ -382,6 +383,19 @@ label{
 hr{
     border: 1% solid rgb(112, 109, 109);
     width: 100%;
+}
+#footer{
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+#social_text{
+    display: none;
+}
+#bio_div{
+    display: none;
 }
 
 @media screen and (max-width: 700px) {
@@ -510,6 +524,9 @@ hr{
 #portfolio_1{
     padding: 10px;
 }
+#portfolio{
+    height: 100px;
+}
 #btn2{
     width: 140px;
     height: 50px;
@@ -561,12 +578,11 @@ hr{
 #middle_project{
     margin: 0;
 }
-.Name_input{
-    width: 155px;
-    height: 40px;
-    padding: 16px;
-    border-radius: 8px;
-    box-sizing: border-box;
+#Name_InputDiv{
+  display: none;
+}
+#fullName{
+    display: block;
 }
 .input{
     width: 350px;
@@ -613,6 +629,9 @@ hr{
     color:black;
     line-height: 40px;
 }
+#bio_div{
+    display: block;
+}
 #bio{
     font-size: small;
     font-weight: 500;
@@ -621,6 +640,7 @@ hr{
     height: 70px;
 }
 #social_text{
+    display: block;
     font-size: 15px;
     font-weight: 700;
     color:black;
@@ -631,7 +651,6 @@ hr{
     color: #000000;
     font-size: 12px;
     font-weight: 600;
-
 }
 
 
